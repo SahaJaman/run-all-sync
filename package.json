@@ -1,0 +1,26 @@
+{
+  "name": "run-all-sync",
+  "version": "1.0.0",
+  "description": "execute functions one by one",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SahaJaman/run-all-sync.git"
+  },
+  "keywords": [
+    "execute",
+    "functions",
+    "one",
+    "by",
+    "one"
+  ],
+  "author": "Jaman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SahaJaman/run-all-sync/issues"
+  },
+  "homepage": "https://github.com/SahaJaman/run-all-sync#readme"
+}
