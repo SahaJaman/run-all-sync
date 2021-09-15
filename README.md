@@ -1,4 +1,4 @@
-#execute functions one by one
+# execute functions one by one
 
 ```js
 var runAllSync = require('run-all-sync');
