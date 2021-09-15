@@ -1,5 +1,6 @@
-execute functions one by one
+#execute functions one by one
 
+```js
 var runAllSync = require('run-all-sync');
 
 runAllSync(function(cb){
@@ -21,6 +22,7 @@ runAllSync(function(cb){
 	}
 	console.log("Success");
 });
+```
 
 output: 
 1
