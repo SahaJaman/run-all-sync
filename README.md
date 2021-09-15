@@ -1,6 +1,6 @@
 # Execute functions one by one
 
-runAllSync accepts n number of functions. The last function is the callback. All the functions before the last one will execute one by one. On call of cb which is passed as a argument to every function the next function will execute. If there is an error call the cb with an argument. The last callback function will be executed when all the functions before it gets executed or some functions calls cb with an argument. Check the callback if there is an error
+runAllSync accepts n number of functions. The last function is the callback. All the functions before the last one will execute one by one. On call of cb which is passed as a argument to every function the next function will execute. If there is an error call the cb with an argument otherwise without argument. The last callback function will be executed when all the functions before it gets executed or some functions calls cb with an argument. Check the callback if there is an error
 
 ```js
 var runAllSync = require('run-all-sync');
